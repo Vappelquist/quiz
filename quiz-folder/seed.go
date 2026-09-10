@@ -7,7 +7,7 @@ func Seed() []Question {
 		Options: []Option{
 
 			{Id: "a", Text: "Mojito"},
-			{Id: "b", Text: "Piña Colada"},
+			{Id: "b", Text: "Martini"},
 			{Id: "c", Text: "Mai Tai"},
 			{Id: "d", Text: "Dark 'n' Stormy"}},
 		CorrectId: "a",
@@ -17,14 +17,14 @@ func Seed() []Question {
 		Options: []Option{
 			{Id: "a", Text: "Negroni"},
 			{Id: "b", Text: "Americano"},
-			{Id: "c", Text: "Martini"},
+			{Id: "c", Text: "Whisky sour"},
 			{Id: "d", Text: "Manhattan"}},
 		CorrectId: "a",
 	}, {
 		Id:   "3",
-		Text: "A tropical cocktail made with rum, coconut cream, and pineapple juice.",
+		Text: "A classic cocktail made with bourbon, lemon juice, simple syrup and an egg white.",
 		Options: []Option{
-			{Id: "a", Text: "Piña Colada"},
+			{Id: "a", Text: "Whisky sour"},
 			{Id: "b", Text: "Mai Tai"},
 			{Id: "c", Text: "Daiquiri"},
 			{Id: "d", Text: "Zombie"}},
