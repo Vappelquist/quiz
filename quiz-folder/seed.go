@@ -6,11 +6,11 @@ func Seed() []Question {
 		Text: "Summery cocktail with a base of rum, lime juice, and sugar, served over ice in a highball glass.",
 		Options: []Option{
 
-			{Id: "a", Text: "Mojito"},
-			{Id: "b", Text: "Martini"},
-			{Id: "c", Text: "Mai Tai"},
+			{Id: "a", Text: "Martini"},
+			{Id: "b", Text: "Mai Tai"},
+			{Id: "c", Text: "Mojito"},
 			{Id: "d", Text: "Dark 'n' Stormy"}},
-		CorrectId: "a",
+		CorrectId: "c",
 	}, {
 		Id:   "2",
 		Text: "A classic cocktail made with gin, vermouth, and Campari from Italy.",
@@ -24,11 +24,11 @@ func Seed() []Question {
 		Id:   "3",
 		Text: "A classic cocktail made with bourbon, lemon juice, simple syrup and an egg white.",
 		Options: []Option{
-			{Id: "a", Text: "Whisky sour"},
-			{Id: "b", Text: "Mai Tai"},
-			{Id: "c", Text: "Daiquiri"},
-			{Id: "d", Text: "Zombie"}},
-		CorrectId: "a",
+			{Id: "a", Text: "Mai Tai"},
+			{Id: "b", Text: "Daiquiri"},
+			{Id: "c", Text: "Zombie"}},
+			{Id: "d", Text: "Whisky sour"},
+		CorrectId: "d",
 	}, {
 		Id:   "4",
 		Text: "A classic cocktail made with whiskey, sweet vermouth, and bitters.",
@@ -42,8 +42,8 @@ func Seed() []Question {
 		Id:   "5",
 		Text: "A refreshing cocktail made with vodka, tomato juice, and various spices and flavorings.",
 		Options: []Option{
-			{Id: "a", Text: "Bloody Mary"},
-			{Id: "b", Text: "Moscow Mule"},
+			{Id: "a", Text: "Moscow Mule"},
+			{Id: "b", Text: "Bloody Mary"},
 			{Id: "c", Text: "Caipirinha"},
 			{Id: "d", Text: "Tom Collins"}},
 		CorrectId: "a",
