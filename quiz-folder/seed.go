@@ -26,8 +26,9 @@ func Seed() []Question {
 		Options: []Option{
 			{Id: "a", Text: "Mai Tai"},
 			{Id: "b", Text: "Daiquiri"},
-			{Id: "c", Text: "Zombie"}},
+			{Id: "c", Text: "Zombie"},
 			{Id: "d", Text: "Whisky sour"},
+		},
 		CorrectId: "d",
 	}, {
 		Id:   "4",
@@ -46,6 +47,6 @@ func Seed() []Question {
 			{Id: "b", Text: "Bloody Mary"},
 			{Id: "c", Text: "Caipirinha"},
 			{Id: "d", Text: "Tom Collins"}},
-		CorrectId: "a",
+		CorrectId: "b",
 	}}
 }
